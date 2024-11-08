@@ -1,0 +1,49 @@
+[type='search'] {
+    -webkit-appearance: textfield;
+    outline-offset: -2px;
+    height:30px;
+    border-radius: 16px;
+    background-color: rgb(236, 236, 236);
+    padding-inline: 10px;
+    margin-inline: 20px;
+}
+button, [role="button"] {
+    cursor: pointer;
+    width: 30px;
+    color: #337745;
+}
+nav {
+    display: flex;
+    unicode-bidi: isolate;
+    justify-content: center;
+}
+td {
+    display: table-cell;
+    vertical-align: inherit;
+    unicode-bidi: isolate;
+    height: 40px;
+    cursor: pointer;
+}
+tbody tr:hover {
+    background-color: rgb(236, 236, 236);
+}
+div {
+    display: block;
+    unicode-bidi: isolate;
+    text-align: center;
+    padding-block: 10px;
+}
+.dt-paging-button{
+    background: rgb(236, 236, 236);
+    border: solid 1px #337745;
+    padding: 10px;
+    border-radius: 8px;
+    margin-inline: 2px;
+}
+.current{
+    background: #337745;
+    color: white;
+}
+.disabled {
+    display: none;
+}
