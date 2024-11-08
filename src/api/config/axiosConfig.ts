@@ -3,7 +3,7 @@ import { setupRequestInterceptor } from "api/interceptors/requestInterceptor";
 import { setupResponseInterceptor } from "api/interceptors/responseInterceptor";
 
 const axiosInstance = axios.create({
-    baseURL: 'https://dummyjson.com/', 
+    baseURL: process.env.REACT_APP_BASE_URL || '', 
     timeout: 10000,
 })
 

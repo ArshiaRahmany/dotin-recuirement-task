@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useState } from "react";
 import { useAppDispatch, useAppSelector } from "hooks/useRedux";
 import { logout } from "store/login/LoginSlice";
 import { useNavigate } from "react-router-dom";

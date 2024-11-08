@@ -1,6 +1,5 @@
 import { combineReducers, configureStore, PayloadAction } from "@reduxjs/toolkit";
 import { TypedUseSelectorHook, useDispatch, useSelector } from "react-redux";
-import { LoginState } from "store/types/LoginStatesTypes";
 import { logout } from "store/login/LoginSlice";
 import loginReducer from "store/login/LoginSlice";
 import dataTableReducer from "store/dataTable/DataTableSlice"; 
